@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my website Navbar </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+
+            background-color: rgb(189, 228, 236);
+            height: 100vh;
+            box-sizing: border-box;
+
+        }
+
+        .logo img {
+            display: inline-block;
+            height: 45px;
+
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+
+
+
+        }
+
+        .nav ul li a {
+
+            display: flex;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 9px;
+            text-decoration: none;
+            padding: 10px 23px;
+            background-color: beige;
+            gap: 30px;
+
+
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border-radius: 6px;
+            background-color: rgb(60, 166, 227);
+
+
+            border: 2px solid black;
+        }
+
+        .nav ul li {
+            list-style: none;
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+
+        .nav ul li a:hover {
+            background-color: white;
+            transform: translateY(-3px);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+
+
+            <div class="logo"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF-WVsomYdeiGBwFkq95m6jEVrbLiAIqsxeSrraIrRkVUab1OHdhzJWDQ&s"
+                    alt="">
+            </div>
+
+            <div class="nav">
+                <ul>
+
+                    <li><a href="">home<svg width="12" height="12" viewBox="0 0 24 24" fill="black">
+                            <path d="M7 10l5 5 5-5z" />
+                        </svg></a></li>
+                    <li><a href="">about<svg width="12" height="12" viewBox="0 0 24 24" fill="black">
+                            <path d="M7 10l5 5 5-5z" />
+                        </svg></a></li>
+                    <li><a href="">service<svg width="12" height="12" viewBox="0 0 24 24" fill="black">
+                            <path d="M7 10l5 5 5-5z" />
+                        </svg></a></li>
+                    <li><a href="">contact<svg width="12" height="12" viewBox="0 0 24 24" fill="black">
+                            <path d="M7 10l5 5 5-5z" />
+                        </svg></a></li>
+
+                </ul>
+            </div>
+        </header>
+
+    </div>
+</body>
+
+</html>
